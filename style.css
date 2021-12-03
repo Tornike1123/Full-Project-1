@@ -1,0 +1,415 @@
+
+*{
+    box-sizing: border-box;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+}
+body{
+
+    background-size: 100%;
+    margin: auto;
+    
+
+}
+#background-img{
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    height: 1000px;
+    
+}
+.blur{
+    backdrop-filter: blur(4px);
+    width: 100%;
+    height: 100%;
+}
+    
+.tanato{
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-left: 20%;
+}
+.studio{
+    color: darkorange;
+}
+.menu{
+    position: absolute;
+    margin-left: 40%;
+    color: white;
+    font-size: 30px;
+}
+.about{
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.design{
+    
+    color: white;
+    
+    
+}
+.things{
+    color: darkorange;
+}
+.lorem{
+    color: white;
+}
+.button{
+    display: flex;
+   justify-content: center;
+   margin: 60px;
+   
+   
+
+}
+.button1{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.8s;
+    
+}
+.button1:hover{
+    background-color: darkorange;
+}
+.border{
+    border: solid;
+    border: 0;
+    height: 30%;
+    background-color:whitesmoke;
+    
+}
+.border2{
+    border: 0;
+    width: 15%;
+    display: inline-block;
+    margin: 4.8%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+
+}
+
+.print{
+    font-size: 70px;
+    color: tomato;
+}
+.emai-sub{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+.email{
+    padding: 0px 100px 0 0;
+    height: 30px;
+    border-radius: 10px;
+}
+.subcribe{
+    text-decoration: none;
+    border: 3px solid darkorange;
+    border-radius: 10px;
+    color: white;
+    padding: 2px 50px;
+    margin-left: 30px;
+    transition: all 0.6s;
+}
+.subcribe:hover{
+    background-color: darkorange;
+}
+/* header end */
+
+/* section start */
+.section{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 1100px;
+}
+.bio{
+    text-align: center;
+    padding-top: 8%;
+}
+.bio2{
+    color: darkorange;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.city{
+    height: 350px;
+    width: 350px;
+    padding-bottom: 30px;
+}
+.vizit-company{
+    height: 350px;
+    width: 350px;
+    padding-bottom: 30px;
+}
+.city{
+    background-image: url(img/newyork.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px 320px;
+    color: darkorange;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 0;
+    margin: 0;
+    transition: all 0.8s;
+    
+}
+.city2{
+    background-image: url(img/paris.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 320px;
+    width: 340px;
+    color: darkorange;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    padding-top: 70px;
+    margin: 0;
+    font-size: 0;
+    transition: all 0.8s;
+
+    
+}
+.city:hover{
+    font-size: 50px;
+}
+.city2:hover{
+    font-size: 70px;
+}
+
+
+
+.show-more{
+   display: flex;
+   justify-content: center;  
+}
+.show-more1{
+    border: 2px solid darkorange;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.6s;
+}
+.show-more1:hover{
+    background-color: darkorange;
+    color: whitesmoke;
+}
+/* section end */
+
+/* section2 start */
+.background-img2{
+    background-image: url(img/office.jpg);
+    background-position: right;
+    width: 100%;
+    height: 500px;
+}
+.border-bio{
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.img-person{
+    display: block;
+    margin: 5% auto 0 auto;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+}
+.text-person{
+    margin: 3% auto 0 auto;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 30%;
+}
+.text-person2{
+    margin: 3% auto 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+/* section end */
+
+/* section start */
+.team-bio{
+    background-color: whitesmoke;
+
+}
+.team-bio2{
+   
+    text-align: center;
+    padding: 30px 0;
+
+}
+.work-img{
+    height: 200px;
+    width: 200px;
+    border-bottom: 5px solid whitesmoke;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: all 0.7s;
+    padding: 0;
+    
+}
+.work-img:hover{
+    filter: grayscale(0%);
+    border-bottom:5px solid rgb(230, 133, 16);
+}
+.mahmoud{
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0;
+}
+.social{
+    background-color:blue;
+   font-size: 40px;
+   color: white;
+   padding: 10px;
+   margin: 2px;
+   border-radius: 50%;
+   filter: grayscale(100%);
+}
+.social:hover{
+    filter: grayscale(0%);
+}
+.social2{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 50%;
+    filter: grayscale(100%); 
+}
+.social2:hover{
+    filter: grayscale(0%);
+    background-color: deepskyblue;
+}
+.social3{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 50%;
+}
+.social3:hover{
+    background-color: red;
+    
+}
+
+.work2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.work{ 
+    width: 200px;
+}
+/* section end */
+/* section start */
+
+.background-img3{
+    background-image: url(img/office2.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-sayhello{
+    text-align: center;
+    padding-top: 30px;
+}
+.text-say{
+    color: white;
+    font-size: 40px;
+
+}
+.text-hello{
+    color: darkorange;
+    font-size: 40px;
+}
+.text-lorr{
+    color: white;
+    font-size: 20px;
+}
+.email-text1{
+    display: flex;
+    justify-content: center;
+}
+.email-text{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px 10px;
+    font-size: 20px;
+}
+.textarea1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.textarea{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 540px;
+    height: 100px;
+}
+.here-soc{
+    display: flex;
+    justify-content: center;
+}
+.here-us{
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: 0;
+    font-size: 30px;
+    padding: 5px 30px;
+    margin-right: 120px;
+    margin-top: 20px;
+    color: white;  
+    transition: all 0.6s;
+}
+.here-us:hover{
+    background-color: darkorange;
+}
+.social-med{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* seaction end */
+/* footer start */
+.footer{
+    background-color: rgb(51, 49, 49);
+    height: 50px;
+    margin: 0;
+}
+.footer1{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.design-by{
+    padding-left: 80px;
+}
+.co{
+    color: darkorange;
+}
+.c{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3px;
+}
